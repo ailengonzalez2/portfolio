@@ -1,0 +1,93 @@
+/* @font-face {
+    font-family: 'Raleway';
+    src: url('/asset/fonts/Raleway-Medium.ttf');
+  } */
+  @font-face {
+    font-family: 'Open Sans light';
+    src: url('/asset/fonts/OpenSans-Light.ttf');
+}
+
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('/asset/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans semibold';
+    src: url('/asset/fonts/OpenSans-SemiBold.ttf');
+}
+
+
+
+
+@font-face {
+    font-family: 'Inter Medium';
+    src: url('/asset/fonts/Inter-Medium.ttf');
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('/asset/fonts/Inter-Bold.ttf');
+    font-weight: bold;
+}
+
+
+
+
+
+:root {
+    --primary-color: #688392;
+    --primary-text: rgba(0, 0, 0, 0.7);
+    --secondary-text: rgba(128, 128, 128, 0.7);
+}
+
+body {
+    color: var(--primary-text);
+    font-family: 'Open Sans light';
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 22px;
+    color: var(--secondary-text);
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Inter Medium';
+}
+
+/* h4 {
+    font-size: 20px;
+} */
+
+.color-secondary {
+    color: var(--secondary-text);
+}
+
+.color-primary {
+    color: var(--primary-text);
+}
+
+.subtitle-one {
+    font-family: 'Open Sans regular';
+    color: var(--secondary-text);
+    font-size: 14px;
+}
+
+.experience-name{
+    font-family:'Inter Bold' ;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media (min-width: 992px){
+   .margin-desktop{
+    margin: 60px 250px;
+}
+}

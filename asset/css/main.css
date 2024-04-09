@@ -1,0 +1,321 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('/asset/fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/asset/fonts/OpenSans-Light.ttf');
+}
+
+
+
+
+
+:root {
+  --primary-color: #688392;
+}
+
+.link-header {
+  color: #333333;
+}
+
+.link-header {
+  --bs-nav-link-hover-color: var(--primary-color);
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Raleway';
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+a{
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Open Sans';
+}
+
+h6 {
+  font-size: 20px;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+
+.background-header {
+  background-color: #FFFFFF;
+}
+
+.background-gray {
+  background-color: #D9D9D9;
+}
+
+.padding-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-work {
+  color: var(--primary-color);
+  text-decoration: none;
+
+}
+
+.link-contact {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+
+
+.tittle-case-study h1 {
+  font-size: 25px;
+  color: #A1A1A1;
+}
+
+.tittle-case-study h2 {
+  font-size: 35px;
+}
+
+.tittle-case-study h3 {
+  font-size: 20px;
+  color: #A1A1A1;
+}
+
+.tittle-case-study a {
+ color: var(--primary-color);
+ text-decoration: none;
+}
+
+
+
+.section-case-study {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-case-study h3 {
+  font-size: 30px;
+  color: #A1A1A1;
+  font-family: 'Open Sans';
+}
+
+.section-case-study h4 {
+  font-size: 24px;
+  color: #A1A1A1;
+  font-family: 'Open Sans';
+}
+
+.bg-start-pink {
+  background-image: url('/asset/img/bg-rose-one.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.title-index {
+  font-size: 100px;
+}
+
+.sub-title-index {
+  font-size: 100px;
+}
+
+.title-section {
+  font-size: 80px;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.menu-responsive ul{
+  list-style-type: none!important;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Overlay */
+.card-overlay {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background: #FFFFFF;
+}
+
+.card-overlay *,
+.card-overlay:before,
+.card-overlay:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.card-overlay img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+/* .card-overlay:before,
+.card-overlay:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #000000;
+  z-index: 1;
+  opacity: 0;
+} */
+
+.card-overlay:before {
+  width: 0;
+  height: 1px;
+}
+
+.card-overlay:after {
+  height: 0;
+  width: 1px;
+}
+
+.card-overlay figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.card-overlay h3,
+.card-overlay h4 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.card-overlay h4 {
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+/* .card-overlay a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+} */
+
+.card-overlay:hover img,
+.card-overlay.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.card-overlay:hover:before,
+.card-overlay.hover:before,
+.card-overlay:hover:after,
+.card-overlay.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.card-overlay:hover:before,
+.card-overlay.hover:before {
+  width: 40px;
+}
+
+.card-overlay:hover:after,
+.card-overlay.hover:after {
+  height: 40px;
+}
+
+.card-overlay:hover h3,
+.card-overlay.hover h3,
+.card-overlay:hover h4,
+.card-overlay.hover h4 {
+  opacity: 1;
+}
+
+.card-overlay:hover h3,
+.card-overlay.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.card-overlay:hover h4,
+.card-overlay.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+
+/* Parallax */
+.parallax {
+  /* The image used */
+  background-image: url("https://freepixel-prod.s3.amazonaws.com/preview/free-vector-graphic-head-up-display-of-an-ethereum-eth-trading-platform-cryptocurrency-exchange-platform-concept-preview-110106685.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (max-width: 767px) {
+  .title-index {
+    font-size: 50px;
+  }
+
+  .sub-title-index {
+    font-size: 50px;
+  }
+
+
+  .title-section {
+    font-size: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+  }
+}
