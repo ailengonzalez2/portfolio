@@ -4,8 +4,9 @@
 }
 
 @font-face {
-  font-family: 'proxima nova bold';
+  font-family: 'proxima nova';
   src: url('/asset/fonts/Proxima-Nova-bold.otf');
+  font-weight: bold;
 }
 
 @font-face {
@@ -151,7 +152,8 @@ h6 {
 
 .title-section {
   font-size: 100px;
-  font-family: proxima nova bold;
+  font-family: proxima nova;
+  font-weight: bold;
   /* padding-bottom: 100px;
   margin-bottom: 50px; */
   color: #333333;
@@ -167,7 +169,8 @@ h6 {
 
 .title-experience {
   font-size: 30px;
-  font-family: proxima nova bold;
+  font-family: proxima nova;
+  font-weight: bold;
   color: #333333;
   letter-spacing: -0.06em;
 }
@@ -175,7 +178,8 @@ h6 {
 
 .title-web {
   font-size: 100px;
-  font-family: proxima nova bold;
+  font-family: proxima nova;
+  font-weight: bold;
   /* padding-bottom: 100px;
   margin-bottom: 50px; */
   color: #F6F6F6;
@@ -191,7 +195,8 @@ h6 {
 
 .hobby-conect {
   font-size: 40px;
-  font-family: proxima nova bold;
+  font-family: proxima nova;
+  font-weight: bold;
   color: #333333;
   letter-spacing: -0.06em;
 }
@@ -234,7 +239,8 @@ h6 {
 
 .title-projet {
   font-size: 80px;
-  font-family: proxima nova bold;
+  font-family: proxima nova;
+  font-weight: bold;
   /* padding-bottom: 100px;
   margin-bottom: 50px; */
   color: #ECE7E1;
@@ -445,7 +451,8 @@ h6 {
 
   .title-projet {
     font-size: 40px;
-    font-family: proxima nova bold;
+    font-family: proxima nova;
+    font-weight: bold;
     /* padding-bottom: 100px;
     margin-bottom: 50px; */
     color: #ECE7E1;
@@ -460,7 +467,8 @@ h6 {
 
   .title-web {
     font-size: 50px;
-    font-family: proxima nova bold;
+    font-family: proxima nova;
+    font-weight: bold;
     /* padding-bottom: 100px;
     margin-bottom: 50px; */
     color: #F6F6F6;
@@ -542,7 +550,8 @@ h6 {
   overflow: hidden;
   text-overflow: ellipsis;
   color: #ECE7E1;
-  font-family: 'proxima nova bold';
+  font-family: 'proxima nova';
+  font-weight: bold;
   text-decoration: none;
   font-size: 18px;
 }
@@ -574,7 +583,8 @@ h6 {
 
 svg {
   display: block;
-  font: 10.5em 'proxima nova bold';
+  font: 10.5em 'proxima nova';
+  font-weight: bold;
   /* width: 480px; */
   height: 100px;
   line-height: 0px;
@@ -710,14 +720,16 @@ svg {
   background: none;
   color: #FFFFFF;
   font-weight: bold;
-  font-family: proxima nova bold;
+  font-family: proxima nova;
+  font-weight: bold;
   cursor: pointer;
   transition: 0.4s ease;
   text-decoration: none;
 }
 
 .card-mobile .info a:hover {
-  font-family: proxima nova bold;
+  font-family: proxima nova;
+  font-weight: bold;
   color: white;
 }
 
