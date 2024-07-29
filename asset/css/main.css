@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'proxima nova';
-  src: url('/asset/fonts/Proxima-Nova-bold.otf');
+  src: url('/asset/fonts/Proxima-Nova-Bold.otf');
   font-weight: bold;
 }
 
@@ -152,7 +152,7 @@ h6 {
 
 .title-section {
   font-size: 100px;
-  font-family: proxima nova;
+  font-family: 'proxima nova';
   font-weight: bold;
   /* padding-bottom: 100px;
   margin-bottom: 50px; */
@@ -169,7 +169,7 @@ h6 {
 
 .title-experience {
   font-size: 30px;
-  font-family: proxima nova;
+  font-family: 'proxima nova';
   font-weight: bold;
   color: #333333;
   letter-spacing: -0.06em;
@@ -178,7 +178,7 @@ h6 {
 
 .title-web {
   font-size: 100px;
-  font-family: proxima nova;
+  font-family: 'proxima nova';
   font-weight: bold;
   /* padding-bottom: 100px;
   margin-bottom: 50px; */
@@ -188,14 +188,15 @@ h6 {
 
 .title-hobby {
   font-size: 100px;
-  font-family: proxima nova bold;
+  font-family: 'proxima nova';
+  font-weight: bold;
   color: #333333;
   letter-spacing: -0.06em;
 }
 
 .hobby-conect {
   font-size: 40px;
-  font-family: proxima nova;
+  font-family: 'proxima nova';
   font-weight: bold;
   color: #333333;
   letter-spacing: -0.06em;
@@ -239,7 +240,7 @@ h6 {
 
 .title-projet {
   font-size: 80px;
-  font-family: proxima nova;
+  font-family: 'proxima nova';
   font-weight: bold;
   /* padding-bottom: 100px;
   margin-bottom: 50px; */
@@ -451,7 +452,7 @@ h6 {
 
   .title-projet {
     font-size: 40px;
-    font-family: proxima nova;
+    font-family: 'proxima nova';
     font-weight: bold;
     /* padding-bottom: 100px;
     margin-bottom: 50px; */
@@ -467,7 +468,7 @@ h6 {
 
   .title-web {
     font-size: 50px;
-    font-family: proxima nova;
+    font-family: 'proxima nova';
     font-weight: bold;
     /* padding-bottom: 100px;
     margin-bottom: 50px; */
@@ -705,11 +706,11 @@ svg {
 }
 
 .card-mobile .info h2 {
-  font-family: proxima nova;
+  font-family: 'proxima nova';
 }
 
 .card-mobile .info p {
-  font-family: proxima nova;
+  font-family: 'proxima nova';
   font-size: 15px;
 }
 
@@ -719,8 +720,7 @@ svg {
   border: none;
   background: none;
   color: #FFFFFF;
-  font-weight: bold;
-  font-family: proxima nova;
+  font-family: 'proxima nova';
   font-weight: bold;
   cursor: pointer;
   transition: 0.4s ease;
@@ -728,7 +728,7 @@ svg {
 }
 
 .card-mobile .info a:hover {
-  font-family: proxima nova;
+  font-family: 'proxima nova';
   font-weight: bold;
   color: white;
 }
