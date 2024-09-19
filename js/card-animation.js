@@ -106,3 +106,12 @@ var card4 = new YBCard(
     "/asset/img/traviu-card.png"
   );
   card5.initCard();
+
+  var card6 = new YBCard(
+    "card6",
+    "Caveswap",
+    "UI Developer<br/><br/> Technology: Nuxt, Nuxt.UI, TailwindCSS, Web3 Modal<br/><br/> ",
+    "Know more",
+    "/asset/img/caveswap.png"
+  );
+  card6.initCard();
